@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin : ["http://localhost:5173","http://localhost:5174","https://recycle-scheduler.vercel.app/"],
+    origin : ["http://localhost:5173","http://localhost:5174","https://recycle-scheduler.vercel.app"],
     methods : ["GET","POST","PATCH","DELETE"],
     credentials : true,
 }))
